@@ -1718,12 +1718,22 @@ mogma = {
 
         founder_named_dynasties = yes
 
-        male_names = {
+        male_names = { Karis  Kagma Renga Dosma Zog Narug Garsh Garengar Vesma Loreg
+        Risga Sodma Rengar Nogarsh Shenga Lareg Ukag Parma Fararsh Yisrug
+        Kogis Larrog Lesagsh Venema Bronzi Cobal Guld Kartz Ledd Merco
+        “Mr_Tubert” Nackle Plats Silva Tyto Zanc Dibal Kakuld Kreadd Frosco
+        Vegkle Dratz Zeeto Lelga Edrubert Norbal Sorwarsh Muslat Lomoga
+        Krarepes 
         }
         pat_grf_name_chance = 10
         mat_grf_name_chance = 10
         father_name_chance = 25
-        female_names = {
+        female_names = { Rorror Kare Polem Gorog Leremma Yarg Garto Rokves Nargme Soregva
+        Korre Kemto Nanme Herrog Lernarg Asves Dameces Oremma Orlem 
+        Keato Teroeg Zeremos Jorogva Zargama Marmma Heroeme Breyarg
+        Lorkrle Dagtz Veranuld Vanzi Shealem Jerovarg Aydem Walonead
+        Torare Kevto Saarog Werok Jurones Shayva Urohartz Sorrle Perog 
+        Borre Dammna Forerng Koene Codnog Roeremto
         }
         pat_grm_name_chance = 10
         mat_grm_name_chance = 10
