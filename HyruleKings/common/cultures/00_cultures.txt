@@ -1,1 +1,2160 @@
-test
+akkalan = {
+    graphical_culture = { westerngfx }
+
+    hylian = { parent = akkalan }
+        graphical_culture = { englishgfx }
+
+        color = { 0.65 0.23 0.76 }
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = yes
+        allow_in_ruler_designer = yes
+        bastard_dynasty_prefix = "Blin"
+
+    }
+    arcadian = { parent = hylian }
+        graphical_culture = { englishgfx }
+
+        color = { 1.0 1.0 0.97 }
+
+        male_patronym = "sen"
+        female_patronym = "sen"
+
+        from_dynasty_prefix = "dru"
+
+        bastard_dynasty_prefix = "Blin"
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    calatian = { parent = akkalan }
+        graphical_culture = { englishgfx }
+
+        color = { 0.89 0.18 0.36 }
+
+        from_dynasty_prefix = "dru"
+
+        bastard_dynasty_prefix = "Blin"
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    ordonian = { parent = hylian }
+        graphical_culture = { englishgfx }
+
+        color = { 0.97 0.84 0.13 }
+        bastard_dynasty_prefix = "Blin"
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    labrynnian = { parent = hylian }
+        graphical_culture = { englishgfx }
+
+        color = { 0.81 0.38 0.98 }
+
+        bastard_dynasty_prefix = "Blin"
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    horonian = { parent = hylian }
+        graphical_culture = { englishgfx }
+
+        color = { 0.78 0.97 0.8 }
+
+        bastard_dynasty_prefix = "Blin"
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    sheikah = { parent = tarminian}
+        graphical_culture = { englishgfx }
+
+        color = { 0.42 0.0 0.02 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = yes
+        allow_in_ruler_designer = yes
+        dynasty_name_first = yes
+    }
+    akkalan = {
+        graphical_culture = { englishgfx }
+
+        color = { 1.0 1.0 0.0 }
+
+        used_for_random = no
+
+        seafarer = yes
+
+        male_patronym = "sen"
+
+        female_patronym = "sen"
+
+        from_dynasty_prefix = "dru"
+
+        bastard_dynasty_prefix = "Blin"
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    tarminian = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.87 0.76 0.86 }
+
+        used_for_random = no
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = yes
+        allow_in_ruler_designer = yes
+        dynasty_name_first = yes
+    }
+}
+zora = {
+    graphical_culture = { westerngfx }
+
+    high zora = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.0 0.03 0.61 }
+
+        seafarer = yes
+
+        from_dynasty_prefix = "de"
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    lanayru = { parent = high zora}
+        graphical_culture = { englishgfx }
+
+        color = { 0.33 0.36 0.83 }
+
+        seafarer = yes
+
+        feminist = yes
+
+        from_dynasty_prefix = "du"
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    river zora = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.22 0.9 0.88 }
+
+	horde = yes
+
+        seafarer = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    storm zora= {
+        graphical_culture = { englishgfx }
+
+        color = { 0.07 0.17 0.33 }
+
+        seafarer = yes
+
+        male_names = {
+        }
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    octozora = { parent = river zora }
+        graphical_culture = { englishgfx }
+
+        color = { 0.93 0.29 0.9 }
+
+	horde = yes
+
+        seafarer = yes
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    ku = { parent = river zora }
+        graphical_culture = { englishgfx }
+
+        color = { 0.22 0.75 0.5 }
+
+	horde = yes
+
+        seafarer = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+}
+kokiric = {
+    graphical_culture = { westerngfx }
+
+    kokiri = { parent = vala tree }
+        graphical_culture = { englishgfx }
+
+        color = { 0.0 0.92 0.2 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    mudman = { parent = kokiri }
+        graphical_culture = { englishgfx }
+
+        color = { 0.0 0.52 0.12 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    skull kid= {
+        graphical_culture = { englishgfx }
+
+        color = { 0.0 0.13 0.03 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    korok = { parent = vala tree }
+        graphical_culture = { englishgfx }
+
+        color = { 0.02 0.36 0.1 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+}
+goron = {
+    graphical_culture = { westerngfx }
+
+    eldinian = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.82 0.18 0.11 }
+
+	founder_named_dynasties = yes
+
+        from_dynasty_prefix = "gor"
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    lost goron = { parent = goron }
+        graphical_culture = { englishgfx }
+
+        color = { 0.58 0.13 0.08 }
+
+	founder_named_dynasties = yes
+
+        from_dynasty_prefix = "gor"
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    rolling ridge goron = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.25 0.31 0.15 }
+
+	founder_named_dynasties = yes
+
+        from_dynasty_prefix = "gor"
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+}
+lizal = {
+    graphical_culture = { westerngfx }
+
+    lizalfos= {
+        graphical_culture = { englishgfx }
+
+        color = { 0.4 0.52 0.34 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    dinolfos = { parent = lizalfos }
+        graphical_culture = { englishgfx }
+
+        color = { 0.67 0.56 0.27 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    aeralfos = { parent = lizalfos }
+        graphical_culture = { englishgfx }
+
+        color = { 0.78 0.61 0.18 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    chamelfos = { parent = lizalfos }
+        graphical_culture = { englishgfx }
+
+        color = { 0.31 0.41 0.17 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    half-breed = { parent = lizalfos }
+        graphical_culture = { englishgfx }
+
+        color = { 0.7 0.43 0.3 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    iguanalfos = { parent = lizalfos }
+        graphical_culture = { englishgfx }
+
+        color = { 0.3 0.7 0.49 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    darkhammer = { parent = lizalfos }
+        graphical_culture = { englishgfx }
+
+        color = { 0.84 0.45 0.13 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    geru = {
+        graphical_culture = { englishgfx }
+
+        color = { 1.0 0.95 0.24 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    daira = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.21 0.93 0.1 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+}
+tabanthan = {
+    graphical_culture = { westerngfx }
+
+    darknut = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.78 0.79 0.48 }
+
+        from_dynasty_prefix = "onth"
+
+        male_names = {
+Alros Althron Aheran Arkulon Axeth Azuron Baral Bekor Barathron Baath Bayun Badun Barua Durar Dathoron Dabaron Dothran Drokar Daldra Dazka Eron Ebakar Elam Erxes Ethu Ematas Enros Ezos Heros Heratron Hodak Hekut Hak Hunay Histher Herapadros Iron Idos Ithraan Isthar Karel Karon Kethum Kurda Kaar Kohba Kalros Kukro Krenan Lomen Laron Ludon Lupay Militron Martyron Mahar Molros Mara Meksonon Meron Mozuron Naron Narathron Naaron Nahadron Nakyar Noseth Onal Onon Onaron Orthulon Orkeon Padro Porthal Rexes Raaron Ronth Ruka Rehu Senturon Saros Sabathon Saabar Sab Sumayon Turon Turok Taartnath Troska Theron Thanon Uron Unyon Unkor Xamer Xexes Xaru Yeren Yaron Yorudax Zalunbar Zunaron Zumar
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+Asera Asmal Aruna Akyal Azuma Ahera Baru Beyun Baba Bathlaam Basaara Badunal Baham Daranal Dabaraan Doxu Dothraal Dirin Diyelu Drokal Duzi Dahar Desth Exes Eral Ethanal Ebayur Es El Ekala Herapadra Herathronal Isis Ixenal Irdak Iren Hoda Has Harin Hyaz Heraxonal Hakyal Karal Kyarda Kunay Kilem Koromal Kaxal Katharaal Lupal Luthunal Laraxonal Lan Leyal Lirath Leseth Maral Menal Marthaal Maharaal Miraal Mes Meksonal Myalem Mirapadra Nemises Neral Narapadra Narathronal Nethal Nyus Naadral Naharal Nubara Obanal Oraayal Orenal Paaral Padral Pekos Raara Runal Renuxal Reyxes Rebanal Rezthu Rahi Relam Saaral Sarkal Senthe Sumal Seltal Sal Sekemal Sexes Sireb Sarupadra Saazabal Seyaral Saxonal Teral Tetrakal Tural Tral Timenes Texen Tharal Thronal Thekyal Unyal Uruk Urapadra Xaral Xeraxonal Xerathronal Xerapadra Yaraxonal Yarapadra Yarathronal Yerenal Yudal Yeset Yasal
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    keaton = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.97 0.97 0.88 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    wosu = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.7 0.05 0.0 }z
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+}
+thod = {
+    graphical_culture = { westerngfx }
+
+    rito = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.0 0.3 0.16 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    fokka = {
+        graphical_culture = { englishgfx }
+
+        color = { 1.0 0.58 0.0 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    wizzrobe = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.0 0.28 0.3 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+}
+blin = {
+    graphical_culture = { westerngfx }
+
+    moblin = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.34 0.0 0.37 }
+
+	horde = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    bokoblin = { parent = moblin }
+        graphical_culture = { englishgfx }
+
+        color = { 0.85 0.88 0.27 }
+
+	horde = yes
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    hinox = { parent = moblin }
+        graphical_culture = { englishgfx }
+
+        color = { 0.02 0.29 0.0 }
+
+	horde = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    bokonox = { parent = hinox }
+        graphical_culture = { englishgfx }
+
+        color = { 0.29 0.76 0.27 }
+
+	horde = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    bulblin = { parent = moblin }
+        graphical_culture = { englishgfx }
+
+        color = { 0.04 1.0 0.0 }
+
+	horde = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    bugblin = { parent = moblin }
+        graphical_culture = { englishgfx }
+
+        color = { 1.0 0.36 0.14 }
+
+	horde = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    gooma = { parent = moblin }
+        graphical_culture = { englishgfx }
+
+        color = { 0.74 0.97 0.95 }
+
+	horde = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    forest blin = { parent = moblin }
+        graphical_culture = { englishgfx }
+
+        color = { 0.48 0.66 0.42 }
+
+	horde = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    dodoblin = { parent = moblin }
+        graphical_culture = { englishgfx }
+
+        color = { 0.0 1.0 0.62 }
+
+	horde = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    miniblin= { parent = moblin }
+        graphical_culture = { englishgfx }
+
+        color = { 0.76 0.05 0.0 }
+
+	horde = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+}
+lynel = {
+    graphical_culture = { westerngfx }
+
+    west lynel= {
+        graphical_culture = { englishgfx }
+
+        color = { 1.0 0.06 0.67 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    east lynel= {
+        graphical_culture = { englishgfx }
+
+        color = { 0.72 1.0 0.61 }
+
+	horde = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    lynelblin = { parent = moblin }
+        graphical_culture = { englishgfx }
+
+        color = { 0.0 0.93 0.78 }
+
+	horde = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+}
+dongo = {
+    graphical_culture = { westerngfx }
+
+    dodongo = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.92 1.0 0.0 }
+
+	horde = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    dodongo snake = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.1 0.21 0.2 }
+
+        used_for_random = no
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    helmasaur = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.82 0.68 0.0 }
+
+        used_for_random = no
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+}
+zunai = {
+    graphical_culture = { westerngfx }
+
+    zuna = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.99 1.0 0.42 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    tokay = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.4 0.98 0.13 }
+
+        seafarer = yes
+
+        male_names = {
+Tusonu Poronuy Oralano Nabolo Nalrano Tusno Oyalu Boyo Basa Abay Busay Batmalo Balo Bojta Bumay Jarso Jabay Ajus Joytu Juray Jolrano Jutno Lamano Lumay Moralu Lojtu Lojban Lopo Lopotan Lanpo Lopay Maropu Motasu Mosu Malobu Mata Moyu Naporo Nato Nabu Nobalu Notuy Najuso Norubo Notu Poro Poyo Patu Patulu Porusutu Panosu Pamutamu Pabura Rosuto Ruy Rotomalu Rataru Rapanuy Romuy Samay Samu Soy Sayso Samo Surojatu Sabasuy Totay Tobu Tajalo Torubanu Topolo Tusay Tomalo Amalo Apu Aruso Amanuto Otalo Oboyu Opu Osu Ojalu Olomu Uyo Ubalo Usota Uru Urajo
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+Otaylo Amaylo Otoya Orolayo Naralayo Onala Marjala Arjala Sambasa Maraylo Mataylo Busaylo Bumaylo Jabaylo Juraylo Lumaylo Morala Lopaylo Samaylo Totaylo Tusaylo Opa Tusona Boya Abaylo Batala Jara Jarayla Moya Ajusa Ura Uraya Uya Ubala Oloma Otayla Panosa Matuta Paylo Sabaya Noya Raylo Nota Poya Ruya Soya Nabuya Naylo Atuma Suset Otamura Ota Mura Pulaylo Bota Najusaylo Buraylo Napaya Napaylo Babaya Babaylo Tutuylo Tutu Tabaylo Tabaya Raluylo
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+}
+monkey = {
+    graphical_culture = { westerngfx }
+
+    deku monkey = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.81 0.9 0.55 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    yook = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.9 0.94 0.79 }
+
+	horde = yes
+
+        seafarer = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+}
+dragon = {
+    graphical_culture = { westerngfx }
+
+    volvagian = {
+        graphical_culture = { englishgfx }
+
+        color = { 1.0 0.16 0.0 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    dark dragon = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.0 0.18 0.12 }
+
+        seafarer = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+}
+mudoran= {
+    graphical_culture = { westerngfx }
+
+    gerudo = {
+        graphical_culture = { englishgfx }
+
+        color = { 1.0 0.68 0.0 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+    ikanian = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.0 0.46 0.49 }
+
+        used_for_random = no
+
+        from_dynasty_prefix = "du"
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    garo = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.35 0.01 0.45 }
+
+        used_for_random = no
+
+        from_dynasty_prefix = "du"
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+    cobble = {
+        graphical_culture = { englishgfx }
+
+        color = { 1.0 0.94 0.53 }
+
+        used_for_random = no
+
+        from_dynasty_prefix = "du"
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+}
+scrub = {
+    graphical_culture = { westerngfx }
+
+    deku scrub = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.15 0.36 0.07 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+}
+huskus = {
+    graphical_culture = { westerngfx }
+
+    huskus = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.28 0.51 0.2 }
+
+        founder_named_dynasties = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+}
+vala tree = {
+    graphical_culture = { westerngfx }
+
+    vala tree = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.26 0.98 0.0 }
+
+        founder_named_dynasties = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+}
+mogma = {
+    graphical_culture = { westerngfx }
+
+    mogma = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.98 0.45 0.3 }
+
+        founder_named_dynasties = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+}
+anouki = {
+    graphical_culture = { westerngfx }
+
+    anouki = {
+    graphical_culture = { englishgfx }
+
+        color = { 0.79 0.98 0.95 }
+
+        seafarer = yes
+
+        male_names = {
+Aroo Akin Kofu Noko Yefu Mofo Yaroo Nefu Kukoo Taru Fumo Yufu Amaka Tonfo Mogo Zolo Mewu Tutu Gezu Geloo Fulo Fewo Ehu Rudu Yedoo Nuwo Dugu Puzo Bagu Payo Sufu Lobo Zeko Ozu Eko Kozo Enu Onu Oho Ledo Tabo Geho Yozu Fupo Adlartok Alornerk Amaqjuaq Amaruq Aput Atiqtalaaq Ikiaq Inuksuk Kallik Kanaaq Kumaglak Nanouk Nanurjuk Nootaikok Nukilik Nuniq Pana Panuk Pilip Qimmiq Silla Siqiniq Taqtu Tehoronianhen Tekkeitsertok Tiguaak Toklo Tonraq Torngarsuk Tukkuttok Tulimak Tulimaq Tulok Tulugaak Ujurak Umiaktorvik Uukkarnit Yoskolo Yotimo Yutu Zunari
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+Yeketo Zareto Fumono Alnaro Misaka Nukko Agu Mawu Upo Dado Feru Fonoo Nefo Yunu Tuho Tabo Tahu Lemoo Womo Yenoo Wedu Nedu Leyu Feroo Baloo Kuru Teho Yemu Betu Suyoo Edo Depu Lubu Wodu Ranu Nubo Ahnak Akna Alasie Amka Anjij Aqakuktuq Arnaaluk Arnakuagsak Arnapkapfaaluk Arnaq Asiaq Ataksak Atiqtalik Cupun Elisapie Hitty Isapoinhkyaki Jissika Kireama Kirima Meriwa Nuliajuk Nuvua Tanaraq Tapeesa Ticasuk Tootega Uki Yuka Yura
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+}
+mazura = {
+    graphical_culture = { westerngfx }
+
+    mazura = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.31 0.7 0.35 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+}
+gohma = {
+    graphical_culture = { westerngfx }
+
+    gohma = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.0 1.0 0.58 }
+
+	horde = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+}
+picori = {
+    graphical_culture = { westerngfx }
+
+    minish = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.77 0.29 0.16 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+}
+fairy = {
+    graphical_culture = { westerngfx }
+
+    fairy = {
+        graphical_culture = { englishgfx }
+
+        color = { 1.0 0.0 0.76 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+Brill Caydee Chiara Clara Contra Daye Dimidia Harper Irene Kari Leesha Leflee Len Letti Lofti Lumine Magnolia Nae Neris Pell Phos Punkin Reflet Sanshi Seli Shine Spectra Tenn Blanche Bline Chomp Cobalt Esdeath Fana Gandora Imp Kiyo Loyla Meara Null Palu Plum Rida Romi Shayla Snorre Tarde Tina Twy Violet Webb Zan Bolaire Boley Cinder Ember Flickr Hearth Hesty Julia Krackle Lalla May Milli Pona Puck Pyrolule Rooke Ruby Sage Scarlet Shalla Torch Vesta Viola Wick Zori Becka Bo Buckler Foam Gullia Isla Lazuli Leanne Marie Misty Pearl Presilla Pressi Rioa Rochel Seles Tream Tyda Angie Anji Ariel Avelle Celeste Cielle Daniela Klim Krone Luna Madge Mina Nimbelle Peek Shell Sorin Spark Stormy Thundre Navi Valanavi Valanvi Dezaia Una Morsheen Venus Ciela Miff Proxi Tatl Cotera Kaysa Mija Tera Ephemerelda Felicia Neri Trill
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+}
+kikwi = {
+    graphical_culture = { westerngfx }
+
+    kikwi = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.36 0.47 0.39 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+}
+oocca = {
+    graphical_culture = { westerngfx }
+
+    oocca = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.02 0.97 0.81 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+}
+old god = {
+    graphical_culture = { westerngfx }
+
+    light spirit = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.96 0.98 0.02 }
+
+        used_for_random = no
+
+        allow_in_ruler_designer = no
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+    }
+}
+twili = {
+    graphical_culture = { westerngfx }
+
+    twili = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.03 0.17 0.15 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+}
+subrosian = {
+    graphical_culture = { westerngfx }
+
+    subrosian = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.78 0.63 0.02 }
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+}
+demon = {
+    graphical_culture = { westerngfx }
+
+    demon = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.0 0.0 0.0 }
+
+        used_for_random = no
+
+        allow_in_ruler_designer = no
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+    }
+}
+taros = {
+    graphical_culture = { westerngfx }
+
+    taros = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.77 0.15 0.15 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+}
+oshunite = {
+    graphical_culture = { westerngfx }
+
+    oshunite = {
+        graphical_culture = { englishgfx }
+
+        seafarer = yes
+
+        color = { 0.37 0.73 0.77 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = no
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+}
+wolfos = {
+    graphical_culture = { westerngfx }
+
+    wolfos = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.24 0.33 0.2 }
+
+	horde = yes
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = no
+        allow_in_ruler_designer = yes
+    }
+}
+haunt = {
+    graphical_culture = { westerngfx }
+
+    poe = {
+        graphical_culture = { englishgfx }
+
+        color = { 0.35 0.03 0.45 }
+
+        male_names = {
+        }
+        pat_grf_name_chance = 10
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+        female_names = {
+        }
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 10
+        mother_name_chance = 25
+        dukes_called_kings = no
+        baron_titles_hidden = no
+        count_titles_hidden = no
+        modifier = default_culture_modifier
+        allow_looting = yes
+        feminist = yes
+        allow_in_ruler_designer = yes
+    }
+}
